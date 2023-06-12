@@ -10,21 +10,21 @@ export default function Hero() {
               <span className="block font-handwriting text-3xl">
                 Olá, me chamo
               </span>
-              <span className="mr-2 font-headline text-5xl font-semibold">
-                João
+              <span className="mr-2 font-headline text-4xl font-semibold">
+                Willian
               </span>
-              <span className="font-headline text-5xl font-light text-blue-400">
-                Henrique
+              <span className="font-headline text-4xl font-light text-blue-400">
+                Menezes
               </span>
             </h1>
 
             <h2 className="mb-6 flex items-center justify-center gap-2 font-semibold md:justify-start">
               <div className="h-1 w-12 rounded-full bg-blue-800" />
-              Desenvolvedor React.js Front-end
+              Desenvolvedor de Software Full Stack
             </h2>
 
             <p className="mb-6 text-center text-gray-400 md:text-left">
-              Sou um desenvolvedor front-end que ama criar coisas para a web.
+              Sou um desenvolvedor full stack que ama criar coisas para a web.
               Atualmente trabalho como freelancer e transformo ideias em sites e
               aplicações web.
             </p>

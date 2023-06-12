@@ -20,28 +20,28 @@ export default function About() {
             <p>
               <span className="mr-1">Meu nome é</span>
               <span className="font-headline font-bold uppercase text-blue-900">
-                João Henrique
+                Willian Menezes
               </span>
             </p>
 
             <table className="mt-4 w-full text-sm">
               <tbody>
-                <tr>
+                {/* <tr>
                   <td className="font-headline font-bold uppercase text-blue-900">
                     Idade:
                   </td>
-                  <td>28</td>
-                </tr>
+                  <td>34</td>
+                </tr> */}
                 <tr>
                   <td className="font-headline font-bold uppercase text-blue-900">
                     Celular:
                   </td>
                   <td>
                     <a
-                      href="tel:+551299999999"
+                      href="https://wa.link/cwnaqi"
                       className="underline hover:text-blue-800"
                     >
-                      +55 12 9.999-9999
+                      +55 83996150711
                     </a>
                   </td>
                 </tr>
@@ -51,10 +51,10 @@ export default function About() {
                   </td>
                   <td>
                     <a
-                      href="mailto:joao-test@testemail.com"
+                      href="mailto:willmenezes@outlook.com.br"
                       className="underline hover:text-blue-800"
                     >
-                      joao-test@testemail.com
+                      willmenezes @outlook.com.br
                     </a>
                   </td>
                 </tr>
@@ -64,11 +64,11 @@ export default function About() {
                   </td>
                   <td>
                     <a
-                      href="https://goo.gl/maps/4yacADQtLB8jz8zn9?coh=178573&entry=tt"
+                      href="https://goo.gl/maps/b7sBR2riNCQJgQuk7"
                       target="_blank"
                       className="underline hover:text-blue-800"
                     >
-                      São José dos Campos - SP
+                      Campina Grande - PB - Brasil
                     </a>
                   </td>
                 </tr>
@@ -86,7 +86,7 @@ export default function About() {
               </tbody>
             </table>
           </div>
-          <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-[url(https://images.unsplash.com/photo-1601455763557-db1bea8a9a5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGF2YXRhciUyMHBob3RvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60)] bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56"></div>
+          <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-[url(https://media.licdn.com/dms/image/D4D03AQFqznjD-mmmTw/profile-displayphoto-shrink_200_200/0/1670643900758?e=1692230400&v=beta&t=pWZEQyr5QJjmd-A3q3NEYmqCiZip5GEu4Aj7BICjv00)] bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56"></div>
         </div>
       </div>
     </section>

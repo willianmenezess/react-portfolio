@@ -3,10 +3,10 @@ import { HiAcademicCap, HiCodeBracketSquare } from "react-icons/hi2"
 export default function Skills() {
   const educations = [
     {
-      name: "Curso de Desenvolvimento Web Full Stack | Dev Samurai",
+      name: "Curso de Desenvolvimento Web Full Stack | Trybe - Bolsista XPInc.",
     },
     {
-      name: "Curso de Desenvolvimento Mobile | Dev Samurai",
+      name: "Aceleração C# | XPInc.",
     },
   ]
 
@@ -46,8 +46,9 @@ export default function Skills() {
             </span>
           </h2>
           <p className="relative text-sm text-gray-700">
-            Front-end Developer | React.js | React Native | Node.js | TypeScript
-            | JavaScript
+            Full Stack Developer | React.js | React Native | Node.js | TypeScript
+            | JavaScript | HTML5 | CSS3 | Next.js | TailwindCSS | mySQL | MongoDB | Git 
+            | GitHub 
           </p>
           <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />
         </div>

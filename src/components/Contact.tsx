@@ -22,10 +22,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "service_sf8b2ti",
-        "template_6wgy6nc",
+        "service_4ohe6sr",
+        "template_omiy1gl",
         form.current,
-        "4GbIsCzVifbY3ve0-"
+        "P7ApnFBwJAChz1zvY"
       )
       .then(
         () => {
@@ -43,20 +43,20 @@ export default function Contact() {
   const contacts = [
     {
       name: "WhatsApp",
-      description: "+55 12 9.999-9999",
-      link: "https://wa.me/5512982041640?text=Olá...",
+      description: "+55 83 996150711",
+      link: "https://wa.link/cwnaqi",
       icon: <FaWhatsapp className="h-10 w-10" />,
     },
     {
       name: "Email",
-      description: "joao-test@testemail.com",
-      link: "mailto:joao-test@testemail.com?subject=Olá...",
+      description: "willmenezes@outlook.com.br",
+      link: "mailto:willmenezes@outlook.com.br?subject=Olá...",
       icon: <HiOutlineEnvelope className="h-10 w-10" />,
     },
     {
-      name: "São José dos Campos",
-      description: "Centro, 123",
-      link: "https://goo.gl/maps/4yacADQtLB8jz8zn9?coh=178573&entry=tt",
+      name: "Campina Grande - PB",
+      description: "Liberdade, Maria Clara Residence, 231, 701A",
+      link: "https://goo.gl/maps/b7sBR2riNCQJgQuk7",
       icon: <HiOutlineMapPin className="h-10 w-10" />,
     },
   ]
